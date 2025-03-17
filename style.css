@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #0a0a0a;
+     
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(238,174,174,1) 50%, rgba(148,214,233,1) 100%);
+    text-align: center;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.game-board {    
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.game-box{
+    height: 18vmin;
+    width: 18vmin;
+    display: flex;
+    border: none;
+    box-shadow:   rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vmin;
+    font-weight: 700;
+    color: #070707;
+    background: #3333331e;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.game-box:hover{
+    background: rgba(238,174,174,1);
+ }
+ #new-game-btn , #restart-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Bebas Neue', cursive;
+
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #0a0a0a ;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ #game-message{
+    font-size: 5vmin;
+    color: #0680FF;
+     
+ }
+ .message-container{
+    display: flex;
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+ }
+ .hide{
+    display: none;
+ }
+ 
